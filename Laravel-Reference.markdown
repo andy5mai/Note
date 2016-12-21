@@ -1,0 +1,1 @@
+http://blog.tonycube.com/2014/12/laravel-1.html

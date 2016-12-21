@@ -1,0 +1,1 @@
+# 如果 phpmyadmin 的"登入 cookie 有效期限"比 php 的 session.gc_maxlifetime 時間長，則可能會發生"session_start 錯誤，Permission Denied"並且 /var/lib/php/sessions 裡的 session 檔案會暴增!

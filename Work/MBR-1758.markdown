@@ -1,0 +1,17 @@
+# 20151015 測試新增
+* insert into mgg_payment_type set sort_no = 0, name = 'WEB直儲-1758', param = 'web_direc_store_1758', url_path = null, class = 'o'
+, pic = '', hover_pic = '', small_pic = '', currency = '1', region = '1', is_need_pdt_code = 0
+, channel = 'web', is_enabled = 1;
+
+* insert into mgg_payment_product set region = 1, product_id = 1, payment_type = 28, name = '直儲金幣', description = '直儲金幣'
+, point = 0, money = 0, currency_id = 1, product_code = '', product_type = 2, is_enabled = 1;
+
+* insert into mgg_payment_product_item set sn = 0, product_sn = 28, item_id = '', item_quan = 0, item_note = 'HOI 金幣'
+
+# 月卡規則
+* 基本上應該是 mgg_payment_type(sn = 27) 搭配 mgg_payment_product(sn = 123) 和 mgg_payment_product_item (product_sn = 123)
+
+# 20151016 測試新增
+* insert into mgg_payment_product set region = 1, product_id = 1, payment_type = 28, name = '直儲金幣', description = '直儲金幣' , point = 0, money = 0, currency_id = 1, product_code = '', product_type = 2, is_enabled = 1
+
+* insert into mgg_payment_product_item set product_sn = 134, item_id = '78000400010', item_quan = 1, item_note = '月卡'

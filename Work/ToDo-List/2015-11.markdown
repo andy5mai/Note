@@ -1,0 +1,4 @@
+* 登入活動無法領到獎勵，activity_receive.php 未被呼叫?
+    1. http:///dmm-mgt.moregeek.com.tw/activity_receive.php 設定錯誤? 
+
+* 遊戲歷程匯出資料功能，還是轉 Big5?

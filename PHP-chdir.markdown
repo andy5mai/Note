@@ -1,0 +1,1 @@
+一旦執行 chdir 則 php_errors.log 即可能會寫到切換後的目錄底下

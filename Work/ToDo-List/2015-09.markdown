@@ -1,0 +1,25 @@
+* 0904
+    1. ~~Commit VirtualServer~~
+    2. ~~同步 mglib 和 SocialServer 到 branch~~
+        ~~1. PPVE, PPVE1, PPVE2 的配隊方式~~
+    3. 單元測試在不同專案測試會有問題
+    4. 專案各環境設定異動處理
+    5. pure Input Runnable
+    6. NewRobotScriptLoader
+
+* 0908
+    1. ~~同步 SocialCommandManager 的 backUpDeledSysInboxData 命令~~ 未測試
+    2. ~~同步 GetRecommendList 封包~~ 未測試
+
+* 0910
+    1. 可能要把 webapi 裡面的 php 都依照 server.php 裡面的 MBR 的 WEB_HOST 設定自動代入網址
+    2. 應該依照 payment_product.php, payment_order_no.php, mobile_client_Return.php 的順序串起來    
+    
+* 0915    
+    1. 無法確定 Winner 的 300703 為什麼沒有 introducer_UID，先測試看看吧...
+
+* 0917
+    1. WorldDataLoader 現在似乎是會把所有資料都讀進來，對 social 來說其實不太有必要，應有改善空間
+
+* 0918
+    1. 房間若分配失敗會造成房主無法開房，應是在 Avatar 身上有 cache，TeamRoom 的 trySplitTeamsToMatch 的 team.destroy(socialController); 沒做好? 只有房主一個人無法創建隊伍
