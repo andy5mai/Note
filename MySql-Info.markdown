@@ -2,7 +2,7 @@
 * mysql -h {host} -u account -p {password}
 
 # 設定檔
-* /etc/mysql/my.cnf
+* /etc/mysql/my.cnf or /etc/mysql/mysql.conf.d/mysqld.cnf
 
 # log 檔 (需在 my.cnf 中啟用並指定檔案位置)
 * /var/log/mysql/mysql.log
